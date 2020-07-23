@@ -16,7 +16,7 @@ const webPageDownloader = (pageUrl) => {
             pageSource += chunk; //concatinates each line in the buffer variable(pageSource)
          });
          response.on("end", () => {
-            fs.writeFile(
+            fs.writeFileSync(
                path.join(__dirname, folderName, "page.html"),
                pageSource,
                (error) => {
@@ -24,7 +24,7 @@ const webPageDownloader = (pageUrl) => {
                   console.log(`Page downloaded at: ${folderName}`); //console out success of the task
                }
             ); //writes file asynchronously to the file named page.html
-            fs.writeFile(
+            fs.writeFileSync(
                path.join(__dirname, folderName, "url.txt"),
                pageUrl,
                (error) => {
