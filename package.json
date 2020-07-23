@@ -1,0 +1,25 @@
+{
+   "name": "web-crawler",
+   "version": "1.0.0",
+   "description": "This is a web crawler developed for practicing node",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/UmairJibran/web-crawler.git"
+   },
+   "keywords": [
+      "web",
+      "crawler",
+      "node",
+      "practice"
+   ],
+   "author": "Umair Jibran",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/UmairJibran/web-crawler/issues"
+   },
+   "homepage": "https://github.com/UmairJibran/web-crawler#readme"
+}
