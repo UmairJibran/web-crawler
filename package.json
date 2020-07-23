@@ -21,5 +21,8 @@
    "bugs": {
       "url": "https://github.com/UmairJibran/web-crawler/issues"
    },
-   "homepage": "https://github.com/UmairJibran/web-crawler#readme"
+   "homepage": "https://github.com/UmairJibran/web-crawler#readme",
+   "dependencies": {
+      "uuid": "8.2.0"
+   }
 }
