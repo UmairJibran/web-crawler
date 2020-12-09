@@ -23,6 +23,6 @@
    },
    "homepage": "https://github.com/UmairJibran/web-crawler#readme",
    "dependencies": {
-      "uuid": "8.3.1"
+      "uuid": "8.3.2"
    }
 }
